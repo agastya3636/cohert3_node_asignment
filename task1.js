@@ -13,10 +13,10 @@ program
     fs.readFile(file, 'utf8', (err, data) => {
       if (err) {
         console.error(`Error reading file: ${err.message}`);
-        process.exit(1);  // Exit with an error code
+        process.exit(1); 
       } else {
         const words = data.split(/\s+/).filter(Boolean);
-        console.log(`You have ${words.length} words in this file.`);
+        console.log(`You have ${words.length} words in ${file}.`);
       }
     });
   });
