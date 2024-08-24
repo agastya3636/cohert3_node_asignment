@@ -1,11 +1,6 @@
 ﻿# cohert3_node_asignment
  ##task 1
 
-![image](https://github.com/user-attachments/assets/8907f16c-697f-44bf-bcf8-1bbc34c27241)
-
-
-
-
 ```
 const fs = require('fs');
 const { Command } = require('commander');
