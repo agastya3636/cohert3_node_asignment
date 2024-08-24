@@ -1,10 +1,10 @@
 [
   {
-    "task": "task",
+    "task": "task1",
     "done": false
   },
   {
-    "task": "taskdone",
+    "task": "task2",
     "done": false
   }
 ]
